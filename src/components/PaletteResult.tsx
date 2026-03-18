@@ -16,7 +16,7 @@ const PaletteResult = ({ palette, onReset }: PaletteResultProps) => {
       initial={{ opacity: 0, y: 30 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, ease: "easeOut" }}
-      className="w-full max-w-2xl mx-auto text-center"
+      className="w-full max-w-2xl mx-auto text-center glass-surface rounded-3xl p-6 md:p-10 bg-card/84"
     >
       {/* Season badge */}
       <motion.span

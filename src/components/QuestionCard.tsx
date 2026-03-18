@@ -36,7 +36,7 @@ const QuestionCard = ({
       animate={{ opacity: 1, x: 0 }}
       exit={{ opacity: 0, x: -40 }}
       transition={{ duration: 0.4, ease: "easeOut" }}
-      className="w-full max-w-lg mx-auto"
+      className="w-full max-w-lg mx-auto glass-surface rounded-2xl p-6 md:p-8 bg-card/86"
     >
       {/* Progress indicator */}
       <div className="flex items-center gap-2 mb-8">
@@ -73,7 +73,7 @@ const QuestionCard = ({
               ${
                 selected === option.value
                   ? "border-primary bg-primary text-primary-foreground shadow-md"
-                  : "border-border bg-card text-card-foreground hover:border-secondary hover:shadow-sm"
+                  : "border-border bg-card/90 text-card-foreground hover:border-secondary hover:shadow-sm backdrop-blur-[2px]"
               }`}
           >
             <span className="mr-3">{option.emoji}</span>

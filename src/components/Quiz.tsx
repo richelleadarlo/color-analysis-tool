@@ -86,12 +86,12 @@ const Quiz = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center px-4 py-12 bg-background">
+    <div className="min-h-screen flex flex-col items-center justify-center px-4 py-12">
       {/* Header */}
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
-        className="text-center mb-12"
+        className="text-center mb-12 glass-surface rounded-3xl px-6 py-5"
       >
         <h1 className="text-4xl md:text-5xl font-display font-bold text-foreground mb-2">
           Color Analysis

@@ -2,7 +2,7 @@
 
 This Color Analysis Tool is a simple web app the helps users discover a color palette based on their undertone(s), contrast, and depth.
 
-![color analysis tool screenshot](public/name.png)
+![color analysis tool screenshot](public/screenshots.png)
 
 ## Features
 - Answer 3 quick questions (undertone, contrast, depth)
